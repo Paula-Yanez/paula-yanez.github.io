@@ -1,0 +1,253 @@
+body {
+	
+	background: #D27C7C;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
+
+
+h1{
+	background: #6BBCA1;
+}
+ul{
+	list-style:none;
+}
+.nav li a{
+	color:#032461;
+	text-decoration:blink;
+	padding:20px  65px;
+	display:block;
+
+}
+.nav  li .in {background:#032461;color: white;}
+.nav  li .qs {background:white;}
+.nav  li .ev {background:white;}
+.nav  li .ga {background:white;}
+
+.nav>li{
+	float:left;
+}
+.nav li a:hover{
+	background-color:#032461;
+	color:white;
+	transition:all .10s;
+}
+
+.nav li:hover .men{
+	visibility:visible;
+	opacity:1;
+}
+ .slider-holder
+        {
+            width: 800px;
+            height: 400px;
+            background-color: yellow;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+        }
+       
+        .image-holder
+        {
+            width: 2400px;
+            background-color: red;
+            height: 400px;
+            clear: both;
+            position: relative;
+           
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+        }
+       
+        .slider-image
+        {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+       
+        #slider-image-1:target ~ .image-holder
+        {
+            left: 0px;
+        }
+       
+        #slider-image-2:target ~ .image-holder
+        {
+            left: -800px;
+        }
+       
+        #slider-image-3:target ~ .image-holder
+        {
+            left: -1600px;
+        }
+        	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-google {background: #d95232;}
+	.social ul li .icon-instagram {background:  #CD6777;}
+ 	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+       
+        .button-holder
+        {
+            position: relative;
+            top: -20px;
+        }
+       
+        .slider-change
+        {
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            border-radius: 5px;
+            background-color: brown;
+        }
+        
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?7l3jdj');
+  src:  url('fonts/icomoon.eot?7l3jdj#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7l3jdj') format('truetype'),
+    url('fonts/icomoon.woff?7l3jdj') format('woff'),
+    url('fonts/icomoon.svg?7l3jdj#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+#header{
+	width:550px;
+	margin:auto;
+	font-family:impact;
+	position: center;
+
+}
+ul{
+	list-style:none;
+}
+.nav li a{
+	color:#032461;
+	text-decoration:blink;
+	padding:20px  25px;
+	display:block;
+
+}
+.nav  li .in {background:#032461;color: white;}
+.nav  li .qs {background:white;}
+.nav  li .ev {background:white;}
+.nav  li .ga {background:white;}
+
+.nav>li{
+	float:left;
+}
+.nav li a:hover{
+	background-color:#032461;
+	color:white;
+	transition:all .10s;
+}
+
+.nav li:hover .men{
+	visibility:visible;
+	opacity:1;
+}
+#info{
+	width:1280px;
+	color:black;
+	background: #D0D3D4;
+	margin: 0px 0px;
+	padding:50px;
+}
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-google {background: #d95232;}
+	.social ul li .icon-instagram {background:  #CD6777;}
+ 
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.red-social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.red-social ul li .icon-twitter {background: #00abf0;}
+	.red-social ul li .icon-google {background: #d95232;}
+	.red-social ul li .icon-instagram {background:  #CD6777;}
+ 
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
+.logo{
+	float:left;
+}
+.red-social{
+	float:right;
+}
+header,article,footer,nav{
+	width:960px;
+	margin:nulo;

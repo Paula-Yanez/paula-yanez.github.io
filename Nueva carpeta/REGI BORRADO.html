@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registrarse</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+<body>
+<div id="general">
+	<div id="menu">
+	<div id="fila">
+	<ul>
+	<li><a href="index.html">INICIO</a></li>
+	<li><a href="servicios.html">SERVICIOS</a></li>
+	<li><a href="descarga.html">DESCARGAS</a></li>
+	<li><a href="registrarse.php">REGISTRARSE</a></li>	
+	</ul>
+	</div>
+	</div>
+	
+	<div id="logo">
+	<img src="img/logo.gif" width="50%" height="90%">
+	</div>
+	
+	<div id="formulario">
+		<h1>&nbsp;&nbsp;Datos de Registro</h1>
+		<form id="f1" action="" method="POST">
+			
+			<div class="datos">
+			<p><span class="eti">NOMBRES</span>
+				<input type="text" name="txtnombre" class="texto"></p>
+			<p><span class="eti">APELLIDOS</span>
+				<input type="text" name="txtapellido" class="texto"></p>
+			<p><span class="eti">USUARIO</span>
+				<input type="text" name="txtusuario" class="texto"></p>
+			<p><span class="eti">CLAVE</span>
+				<input type="password" name="txtclave" class="texto"></p>
+			</div>
+
+			<div class="datos">
+			<p class="titulos2">SEXO</p>
+			<input type="radio" name="opsexo" value="HOMBRE">HOMBRE<br>
+			<input type="radio" name="opsexo" value="MUJER">MUJER<br>
+			
+			<p class="titulos2">ACTIVIDAD FAVORITAS</p>
+
+			<div class="actividad">
+			<input type="checkbox" name="chkbailar" value="BAILAR">BAILAR<br>
+			<input type="checkbox" name="chkviajar" value="VIAJAR">VIAJAR<br>
+			</div>
+
+			<div class="actividad">
+			<input type="checkbox" name="chkjugar" value="JUGAR">JUGAR<br>
+			<input type="checkbox" name="chkcorrer" value="CORRER">CORRER<br>
+			</div>
+
+			<div class="actividad">
+			<input type="checkbox" name="chknadar" value="NADAR">NADAR<br>
+			<input type="checkbox" name="chkcantar" value="CANTAR">CANTAR<br>
+			</div>
+
+
+			</div>
+
+			<div id="guardar">
+			<input type="submit" name="btnguardar" value="GUARDAR">
+			</div>	 
+
+		</form>
+	
+	</div>
+	
+
+	<div id="pie">
+
+		<div class="contactos">
+		<p class="titulos">Nosotros</p>
+		   <a href="#" class="vinculo">Ubicanos</a><br>
+		   <a href="#">Contactanos</a><br>
+		   <a href="#">Seguridad</a><br>
+		   <a href="#">Conoce la empresa</a><br>
+		   <a href="#">Trabaja con nosotros</a><br><br>
+		</div>
+		
+		<div class="contactos">
+		<p class="titulos">Acerca</p>
+		   <a href="#">Tendencias</a><br>
+		   <a href="#">Atencion al cliente</a><br>
+		   <a href="#"> Compra en linea</a><br>
+		   <a href="#">Locales</a><br>
+		   <a href="#">Proximos articulos</a><br><br>
+		</div>
+		
+		<div class="contactos">
+		<p class="titulos">Redes Sociales</p>
+		   <div class="sociales">
+		   	<a href="https://es-la.facebook.com/PUMA/">
+		   	<img src="img/facebook.png" width="100%" height="100%">
+		   </a>
+		   </div> 
+		   <div class="sociales">
+		   	<a href="https://twitter.com/puma_ec">
+		   	<img src="img/twitter.png" width="100%" height="100%">
+		   </a>
+		   </div>
+		   <div class="sociales">
+		    <a href="https://www.youtube.com/channel/UCZq427EjGqUbV6pZIjEKkgg">
+		   	<img src="img/youtube.png" width="100%" height="100%">
+		   </a>
+		   </div>
+		   <div class="sociales">
+		   <a href="https://www.instagram.com/puma/?hl=es">
+		   	<img src="img/instagram.png" width="100%" height="100%">
+		   </div>
+		   </a>
+		 </div>
+			
+		<div class="contactos">
+			<p class="titulos">Contacto</p>
+		    <a href="#">Tel: 095486135-54945<br></a>
+		    <a href="#">Av. Olmedo y Boyaca<br></a>
+		    <a href="#">info@egocity.com<br><br></a>
+		</div>
+				<div id="pimagen">
+				<img src="img/logo.gif" height="30px" width="200px">
+				</div >	
+	</div>
+</div>
+</body>
+</html>
