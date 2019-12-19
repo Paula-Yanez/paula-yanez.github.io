@@ -1,8 +1,9 @@
 body {
 	
-	background: #D27C7C;
+	background: #E38515;
 	background-repeat: repeat-x;
 	background-attachment: fixed;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
 
@@ -211,9 +212,9 @@ ul{
 	}
 
 .social {
-	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	position: absolute; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
 	left: 0; /* Establecemos la barra en la izquierda */
-	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	top: 450px; /* Bajamos la barra 200px de arriba a abajo */
 	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
 }
  
